@@ -1,0 +1,72 @@
+[09Nov2025 22:55:57.440] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 53ms
+[09Nov2025 22:55:57.444] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.29 (CLIENT in DEV)
+[09Nov2025 22:55:57.444] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: /home/kevin/GitHub Projects/sky-and-sea/run
+[09Nov2025 22:55:57.470] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 101) in 12ms
+[09Nov2025 22:55:57.470] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[09Nov2025 22:55:57.471] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/kevin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.29/623a30d16a3a06ae8bd93074178a756e6aa55158/loader-10.0.29.jar
+[09Nov2025 22:55:57.471] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/kevin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.29/6268812ffd0c16cc1eea921b2335d58585384574/earlydisplay-10.0.29.jar
+[09Nov2025 22:55:57.474] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[09Nov2025 22:55:57.646] [ForkJoinPool.commonPool-worker-7/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[09Nov2025 22:55:57.719] [ForkJoinPool.commonPool-worker-7/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates skyandsea%%/home/kevin/GitHub Projects/sky-and-sea/build/classes/java/main:skyandsea%%/home/kevin/GitHub Projects/sky-and-sea/build/resources/main from env
+[09Nov2025 22:55:57.745] [fml-loadingscreen/INFO] [net.neoforged.fml.earlydisplay.render.LoadingScreenRenderer/]: GL info: AMD Radeon RX 6700 XT (radeonsi, navi22, LLVM 21.1.4, DRM 3.64, 6.17.7-3-cachyos) GL version 4.6 (Core Profile) Mesa 25.2.6-cachyos1.2, AMD
+[09Nov2025 22:55:57.781] [ForkJoinPool.commonPool-worker-7/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[09Nov2025 22:55:57.782] [ForkJoinPool.commonPool-worker-7/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.10 (minecraft)
+		NeoForge 21.10.49-beta (neoforge)
+		Sky and Sea 0.0.1 (skyandsea)
+[09Nov2025 22:55:57.876] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/kevin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[09Nov2025 22:55:57.886] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[09Nov2025 22:55:57.886] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta.jar > net.neoforged.neoforge-coremods-21.10.49-beta.jar
+[09Nov2025 22:55:57.938] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - minecraft (composite(jar(/home/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta-client-extra-aka-minecraft-resources.jar), filtered(jar(/home/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta.jar))))
+ - mixinextras.neoforge (jar(/home/kevin/GitHub Projects/sky-and-sea/run/.cache/jij/9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507/mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(/home/kevin/GitHub Projects/sky-and-sea/build/moddev/artifacts/neoforge-21.10.49-beta.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+ - skyandsea (composite(folder(/home/kevin/GitHub Projects/sky-and-sea/build/classes/java/main), folder(/home/kevin/GitHub Projects/sky-and-sea/build/resources/main)))
+[09Nov2025 22:55:57.943] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 8ms
+[09Nov2025 22:55:58.546] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[09Nov2025 22:55:58.551] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 281 Datafixer optimizations took 177 milliseconds
+[09Nov2025 22:56:01.059] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Nov2025 22:56:01.059] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Nov2025 22:56:01.061] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Nov2025 22:56:01.061] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Nov2025 22:56:01.062] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Nov2025 22:56:01.063] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[09Nov2025 22:56:01.098] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.49-beta, for MC 1.21.10
+[09Nov2025 22:56:01.329] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[09Nov2025 22:56:01.335] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[09Nov2025 22:56:01.378] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[09Nov2025 22:56:01.449] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[09Nov2025 22:56:01.772] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/skyandsea, mod/neoforge
+[09Nov2025 22:56:01.783] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: HELLO FROM COMMON SETUP
+[09Nov2025 22:56:01.784] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: DIRT BLOCK >> minecraft:dirt
+[09Nov2025 22:56:01.784] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: The magic number is... 42
+[09Nov2025 22:56:01.784] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: ITEM >> minecraft:iron_ingot
+[09Nov2025 22:56:01.873] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
+[09Nov2025 22:56:01.876] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
+[09Nov2025 22:56:01.946] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: HELLO FROM CLIENT SETUP
+[09Nov2025 22:56:01.947] [resourceLoad/INFO] [com.cubwatson.skyandsea.SkyandSea/]: MINECRAFT NAME >> Dev
+[09Nov2025 22:56:01.947] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
+[09Nov2025 22:56:02.287] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing model for variant: 'Block{skyandsea:example_block}'
+[09Nov2025 22:56:02.452] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Speakers
+[09Nov2025 22:56:02.452] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[09Nov2025 22:56:02.452] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[09Nov2025 22:56:02.455] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[09Nov2025 22:56:02.456] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[09Nov2025 22:56:02.459] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09Nov2025 22:56:02.459] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[09Nov2025 22:56:02.460] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[09Nov2025 22:56:02.485] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/chest.png-atlas
+[09Nov2025 22:56:02.486] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[09Nov2025 22:56:02.486] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[09Nov2025 22:56:02.486] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[09Nov2025 22:56:02.489] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[09Nov2025 22:56:02.489] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[09Nov2025 22:56:02.489] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09Nov2025 22:56:02.567] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID skyandsea:example_block of skyandsea:example_block
+[09Nov2025 22:56:02.568] [Render thread/WARN] [net.minecraft.client.resources.model.ModelManager/]: No model loaded for default item model ID skyandsea:example_item of skyandsea:example_item
+[09Nov2025 22:56:02.569] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[09Nov2025 22:56:17.482] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
