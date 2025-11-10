@@ -1,0 +1,18 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - /home/kevin/.vscode-oss/extensions/redhat.java-1.47.0-linux-x64/jre/21.0.8-linux-x86_64/bin/java
+ - -jar
+ - /home/kevin/.gradle/caches/modules-2/files-2.1/net.neoforged/mergetool/2.0.7/8d217011e2eac8f185c9351240282c780be53e72/mergetool-2.0.7-fatjar.jar
+ - --client
+ - /home/kevin/.gradle/caches/neoformruntime/intermediate_results/stripClient_a2f7fe74d15d71809dfb1bdda38f6bebff5f413d_output.jar
+ - --server
+ - /home/kevin/.gradle/caches/neoformruntime/intermediate_results/stripServer_42aceabdba08b3a44a278c48bbcb9166d527ffe1_output.jar
+ - --ann
+ - 1.21.10
+ - --output
+ - ./output.jar
+ - --inject
+ - false
+--------------------------------------------------------------------------------
+
