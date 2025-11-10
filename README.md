@@ -1,3 +1,10 @@
+Description
+=======
+
+WIP minecraft mod made in collaboration with [Selly](https://bsky.app/profile/selly-sel.bsky.social).
+
+“Why is the sky blue? Because it’s a reflection of the ocean!”
+
 
 Installation information
 =======
