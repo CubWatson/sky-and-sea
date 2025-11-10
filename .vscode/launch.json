@@ -12,11 +12,11 @@
       "projectName": "sky-and-sea",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/kevin/GitHub Projects/sky-and-sea/build/moddev/clientRunProgramArgs.txt"
+        "@/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/kevin/GitHub Projects/sky-and-sea/build/moddev/clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dskyandsea%%/home/kevin/GitHub Projects/sky-and-sea/bin/main"
+        "@/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dskyandsea%%/Users/kevin/GitHub Projects/sky-and-sea/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {},
@@ -34,11 +34,11 @@
       "projectName": "sky-and-sea",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/kevin/GitHub Projects/sky-and-sea/build/moddev/dataRunProgramArgs.txt"
+        "@/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/kevin/GitHub Projects/sky-and-sea/build/moddev/dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dskyandsea%%/home/kevin/GitHub Projects/sky-and-sea/bin/main"
+        "@/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dskyandsea%%/Users/kevin/GitHub Projects/sky-and-sea/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {},
@@ -56,11 +56,11 @@
       "projectName": "sky-and-sea",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/kevin/GitHub Projects/sky-and-sea/build/moddev/gameTestServerRunProgramArgs.txt"
+        "@/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/kevin/GitHub Projects/sky-and-sea/build/moddev/gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dskyandsea%%/home/kevin/GitHub Projects/sky-and-sea/bin/main"
+        "@/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dskyandsea%%/Users/kevin/GitHub Projects/sky-and-sea/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {},
@@ -78,11 +78,11 @@
       "projectName": "sky-and-sea",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@/home/kevin/GitHub Projects/sky-and-sea/build/moddev/serverRunProgramArgs.txt"
+        "@/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@/home/kevin/GitHub Projects/sky-and-sea/build/moddev/serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dskyandsea%%/home/kevin/GitHub Projects/sky-and-sea/bin/main"
+        "@/Users/kevin/GitHub Projects/sky-and-sea/build/moddev/serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dskyandsea%%/Users/kevin/GitHub Projects/sky-and-sea/bin/main"
       ],
       "cwd": "${workspaceFolder}/run",
       "env": {},
