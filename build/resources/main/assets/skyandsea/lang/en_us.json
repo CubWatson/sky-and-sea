@@ -1,0 +1,13 @@
+{
+  "itemGroup.skyandsea": "Example Mod Tab",
+  "block.skyandsea.example_block": "Example Block",
+  "item.skyandsea.example_item": "Example Item",
+
+  "skyandsea.configuration.title": "Sky and Sea Configs",
+  "skyandsea.configuration.section.skyandsea.common.toml": "Sky and Sea Configs",
+  "skyandsea.configuration.section.skyandsea.common.toml.title": "Sky and Sea Configs",
+  "skyandsea.configuration.items": "Item List",
+  "skyandsea.configuration.logDirtBlock": "Log Dirt Block",
+  "skyandsea.configuration.magicNumberIntroduction": "Magic Number Text",
+  "skyandsea.configuration.magicNumber": "Magic Number"
+}
