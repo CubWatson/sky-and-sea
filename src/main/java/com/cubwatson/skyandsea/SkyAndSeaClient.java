@@ -24,8 +24,6 @@ public class SkyAndSeaClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
-        SkyAndSea.LOGGER.info("HELLO FROM CLIENT SETUP");
-        SkyAndSea.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
     }
 }
